@@ -25,7 +25,7 @@ export default function HomePage({handleLogout}) {
             <h1>Development</h1>
             <p className="home-text">
                 Route Ticket is currently undergoing testing and further development to add additional functionality. 
-                Please test the website and report any issues or suggestions to casetrait@gmail.com or randolph@randolph.com
+                Please test the website and report any issues or suggestions to casetrait@gmail.com or randolphcrasto1@gmail.com
             </p>
         </main>
     )

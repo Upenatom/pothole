@@ -9,8 +9,7 @@ export default function TicketDetails({ticket, checkUserVotes, conChecked, handl
         checkUserVotes()
     },[]
     ) 
-    
-    
+        
     return (
         <div className="ticket-details">
             <div className="left">
