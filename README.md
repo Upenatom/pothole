@@ -1,4 +1,4 @@
-![Route Ticket Logo](/public/images/logo.png)
+![Route Ticket Logo](/public/images/Logo.png)
 
 ---
 # Overview
@@ -7,15 +7,15 @@
 ---
 # Navigating the App
 
-![Login](/public/images/login.png)
+![Login](/public/images/Login.png)
 
 Users can create an account and report issues along their route by opening a new "Route Ticket". Whether it be potholes, snow obstructions, poor signage or other concerns, Users can report a unique issue by selecting "New Ticket" and providing details including map position.
 
-![Form Page](/public/images/form.png)
+![Form Page](/public/images/Form.png)
 
 If the issue of concern already has an active ticket it will appear on the map. A user can filter, expand ticket headers to view details and cast a confirmation vote on the ticket to improve validation and imply additional urgency to resolve the issue. Similarily, users can vote on tickets that are resolved to assist with an active status and filtering algorithm.
 
-![Index Page](/public/images/index.png)
+![Index Page](/public/images/Index.png)
 
 ---
 
