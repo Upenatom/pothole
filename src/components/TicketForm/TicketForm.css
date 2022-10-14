@@ -1,15 +1,19 @@
 .form-map {
     margin: 20px;
+    z-index: 1;
 }
 
 .all-form {
     background-image: linear-gradient(to right bottom, #000000, #2e2e2e, #585858, #878787, #b9b9b9, #b9b9b9, #b9b9b9, #b9b9b9, #878787, #585858, #2e2e2e, #000000);
     display: flex;
+    z-index: 1;
 }
+
+
 
 .ll-input {
     background: transparent;
-    color:#000000;
+    color: #000000;
     border: none;
 }
 
@@ -29,4 +33,61 @@ div.all-form {
 
 .form-black {
     color: #000000;
+}
+
+
+.form-loader {
+    display: flex;
+    flex-direction: column;
+    height: 462px;
+    width: 1359px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, .83);
+    z-index: 2;
+    position: absolute
+}
+
+.loaderglow1 {
+    opacity: 0.8;
+    animation: fade 2s linear infinite;
+    content: url('../../static/icons/pothole.png');
+    height: 50px;
+    width: 50px;
+}
+
+.loaderglow2 {
+    opacity: 0.8;
+    animation: fade 2s linear infinite;
+    content: url('../../static/icons/icey.png');
+    height: 50px;
+    width: 50px;
+}
+
+.loaderglow3 {
+    opacity: 0.8;
+    animation: fade 2s linear infinite;
+    content: url('../../static/icons/pedestrian.png');
+    height: 50px;
+    width: 50px;
+}
+
+.loader-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+@keyframes fade {
+
+    0%,
+    100% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
 }

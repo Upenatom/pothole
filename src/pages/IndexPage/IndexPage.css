@@ -28,3 +28,15 @@
     -webkit-overflow-scrolling: touch;
     height: 500px;
 }
+
+.index-loader {
+    height: 500px;
+    width: 1350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, .83);
+    z-index: 2;
+    position: absolute
+}
